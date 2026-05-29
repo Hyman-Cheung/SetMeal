@@ -1,0 +1,13 @@
+{
+  "name": "Java SetMeal POS",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack"
+      ]
+    }
+  },
+  "onCreateCommand": "javac -d bin src/*.java",
+  "postCreateCommand": "echo '👉 To run the app, type: java -cp bin Main'"
+}
