@@ -4,6 +4,9 @@ A comprehensive, console-based Point of Sale (POS) and Customer Relationship Man
 
 ---
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Hyman-Cheung/SetMeal?hide_repo_select=true&ref=main)
+
+---
 ## 🎯 Key Application Features
 
 * **Secure Staff Portals:** Restricts operational access behind a secure terminal gatekeeper allowing staff sign-ups, secure authentication, and credentials recovery.
@@ -62,3 +65,4 @@ Finalizes transactions while maintaining consumer relationships:
 
 ## 👤 Credits
 Designed and Developed by **Hyman Cheung**.
+
