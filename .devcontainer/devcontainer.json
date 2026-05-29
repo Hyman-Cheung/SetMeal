@@ -8,12 +8,9 @@
       ]
     }
   },
-  // Compiles all Java files from 'src' into a 'bin' folder on startup
-  "onCreateCommand": "javac -d bin src/*.java",
+  // FIX: This creates the 'bin' folder FIRST, then safely compiles your code
+  "onCreateCommand": "mkdir -p bin && javac -d bin src/*.java",
   
-  // Tells Codespaces to wait until compilation is finished before executing the next step
   "waitFor": "onCreateCommand",
-  
-  // Automatically runs the main method immediately without requiring user input
   "postCreateCommand": "java -cp bin Main"
 }
