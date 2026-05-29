@@ -8,9 +8,11 @@
       ]
     }
   },
-  // FIX: This creates the 'bin' folder FIRST, then safely compiles your code
-  "onCreateCommand": "mkdir -p bin && javac -d bin src/*.java",
+  // FIX 1: Compiles all files inside your 'src/SetMeal' package directory into a 'bin' folder
+  "onCreateCommand": "mkdir -p bin && javac -d bin src/SetMeal/*.java",
   
   "waitFor": "onCreateCommand",
-  "postCreateCommand": "java -cp bin Main"
+  
+  // FIX 2: Runs the program using the fully qualified name of your main class (SetMeal.Main)
+  "postCreateCommand": "java -cp bin SetMeal.Main"
 }
