@@ -6,8 +6,8 @@
       "version": "17"
     }
   },
-  "postCreateCommand": "javac -d build/classes src/setmeal/*.java",
-  "postStartCommand": "java -cp build/classes setmeal.SetMeal",
+  "postCreateCommand": "javac -d build/classes src/SetMeal.java",
+  "postStartCommand": "java -cp build/classes SetMeal",
   "customizations": {
     "vscode": {
       "settings": {
