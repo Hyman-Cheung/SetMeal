@@ -1,0 +1,18 @@
+{
+  "name": "SetMeal POS System",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    }
+  },
+  "postCreateCommand": "javac -d build/classes src/setmeal/*.java",
+  "postStartCommand": "java -cp build/classes setmeal.SetMeal",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
