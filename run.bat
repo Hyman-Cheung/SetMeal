@@ -1,0 +1,6 @@
+@echo off
+echo Compiling SetMeal...
+javac -d build/classes src/setmeal/*.java
+echo Running SetMeal...
+java -cp build/classes setmeal.SetMeal
+pause
