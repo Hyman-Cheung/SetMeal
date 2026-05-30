@@ -7,11 +7,12 @@
     }
   },
   "postCreateCommand": "javac -d build/classes src/SetMeal.java",
-  "postStartCommand": "java -cp build/classes SetMeal",
+  "postStartCommand": "script -q -c 'java -cp build/classes SetMeal' /dev/null",
   "customizations": {
     "vscode": {
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash"
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.scrollback": 10000
       }
     }
   }
