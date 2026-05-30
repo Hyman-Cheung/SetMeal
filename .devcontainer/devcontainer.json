@@ -6,12 +6,16 @@
       "version": "17"
     }
   },
-  "postCreateCommand": "javac -d build/classes src/SetMeal.java && echo 'source .devcontainer/bashrc' >> ~/.bashrc",
+  "postCreateCommand": "javac -d build/classes src/SetMeal.java",
+  "postStartCommand": "java -cp build/classes SetMeal",
   "customizations": {
     "vscode": {
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
       }
     }
+  },
+  "remoteEnv": {
+    "PROGRAM_RUN": "1"
   }
 }
