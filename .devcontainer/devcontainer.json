@@ -14,7 +14,5 @@
         "terminal.integrated.defaultProfile.linux": "bash"
       }
     }
-  },
-  "forwardPorts": [],
-  "remoteUser": "vscode"
+  }
 }
