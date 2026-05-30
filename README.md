@@ -4,7 +4,7 @@ A comprehensive, console-based Point of Sale (POS) and Customer Relationship Man
 
 ---
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Hyman-Cheung/SetMeal?hide_repo_select=true&ref=main)
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Click_to_Run-181717?style=for-the-badge&logo=github)](https://codespaces.new/Hyman-Cheung/SetMeal)
 
 ---
 ## 🎯 Key Application Features
