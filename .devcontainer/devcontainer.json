@@ -6,12 +6,15 @@
       "version": "17"
     }
   },
-  "postCreateCommand": "chmod +x .devcontainer/setup.sh && .devcontainer/setup.sh",
+  "postCreateCommand": "javac -d build/classes src/SetMeal.java",
   "customizations": {
     "vscode": {
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash"
       }
     }
+  },
+  "settings": {
+    "terminal.integrated.shellIntegration.enabled": false
   }
 }
