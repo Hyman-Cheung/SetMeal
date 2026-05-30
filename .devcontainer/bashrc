@@ -1,0 +1,5 @@
+# Auto-run SetMeal POS System
+echo ""
+echo "🍔 Starting SetMeal POS System..."
+echo ""
+java -cp build/classes SetMeal
