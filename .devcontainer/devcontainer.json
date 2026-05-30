@@ -7,7 +7,7 @@
     }
   },
   "postCreateCommand": "javac -d build/classes src/SetMeal.java",
-  "postStartCommand": "java -cp build/classes SetMeal",
+  "postStartCommand": "java -cp build/classes setmeal.SetMeal",
   "customizations": {
     "vscode": {
       "settings": {
