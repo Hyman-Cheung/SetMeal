@@ -6,10 +6,7 @@
       "version": "17"
     }
   },
-  "initializeCommand": "javac -d build/classes src/SetMeal.java",
-  "onCreateCommand": "echo '✅ Java compiled!'",
-  "postCreateCommand": "echo '✅ Ready! Running SetMeal...'",
-  "postStartCommand": "java -cp build/classes SetMeal",
+  "postCreateCommand": "chmod +x .devcontainer/setup.sh && .devcontainer/setup.sh",
   "customizations": {
     "vscode": {
       "settings": {
