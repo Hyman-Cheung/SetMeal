@@ -6,13 +6,14 @@
       "version": "17"
     }
   },
- "postCreateCommand": "javac -d build/classes src/SetMeal.java",
+  "initializeCommand": "javac -d build/classes src/SetMeal.java",
+  "onCreateCommand": "echo '✅ Java compiled!'",
+  "postCreateCommand": "echo '✅ Ready! Running SetMeal...'",
   "postStartCommand": "java -cp build/classes SetMeal",
   "customizations": {
     "vscode": {
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash",
-        "terminal.integrated.scrollback": 10000
+        "terminal.integrated.defaultProfile.linux": "bash"
       }
     }
   }
