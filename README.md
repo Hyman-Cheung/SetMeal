@@ -4,7 +4,11 @@ A comprehensive, console-based Point of Sale (POS) and Customer Relationship Man
 
 ---
 
-[![Run on Replit](https://img.shields.io/badge/Run_on_Replit-FF4500?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/@HymanCheung98/SetMeal)
+## 🚀 Try It Now (No Download)
+
+[![Run on JDoodle](https://img.shields.io/badge/Run_on_JDoodle-FF4500?style=for-the-badge&logo=java&logoColor=white)](https://www.jdoodle.com/ia/1TQm)
+
+Just click the button → Click **Execute** → Start using!
 
 ---
 ## 🎯 Key Application Features
