@@ -2,8 +2,6 @@
 
 A comprehensive, console-based Point of Sale (POS) and Customer Relationship Management (CRM) terminal. This system simulates a restaurant's operational environment, allowing staff members to handle customer orders, manage a customer membership database with dynamic discounts, and audit store performance metrics.
 
----
-
 ## 🚀 Try It Now (No Download)
 
 [![Run on JDoodle](https://img.shields.io/badge/Run_on_JDoodle-FF4500?style=for-the-badge&logo=java&logoColor=white)](https://www.jdoodle.com/ia/1TQm)
