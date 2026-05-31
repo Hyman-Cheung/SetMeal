@@ -56,15 +56,6 @@ Finalizes transactions while maintaining consumer relationships:
 
 ---
 
-## 💻 System Technical Profile
-
-* **Interface Type:** Command Line Interface (CLI) / Terminal App
-* **Language/Platform:** Java Runtime Environment
-* **Currency Formatting:** Decimal rounded (`#.#`) to prevent floating-point calculation glitches.
-* **Time Tracking:** Integrated live system clock for localized timestamp records.
-
----
-
 ## 👤 Credits
 Designed and Developed by **Hyman Cheung**.
 
